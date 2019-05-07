@@ -11,6 +11,10 @@ package integracion;
  */
 public class MetodoIntegracion {
     Integracion data;
+
+    public MetodoIntegracion(Integracion data) {
+        this.data = data;
+    }
     
     private double fx(double x){
        return Math.sqrt(1+Math.pow(x,2));
